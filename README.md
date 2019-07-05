@@ -7,6 +7,7 @@
   Para o desenvolvimento do mesmo, foram utilizadas a API JPA(Java Persistence API) 2.1 juntamente com a especificação JavaServer Faces  2.2 e o framework Hibernate 5.2.16.Final para fazer o mapeamento Objeto-Relacional, isto é, modelar o banco de dados de acordo com o modelo do nosso projeto. Além disso, foram utilizados o MySQL Server 5.7.17 e a API Javax Servlets 3.0.1 para criação das servlets que vão gerenciar as requisições e gerar views.
 
 
+
 *ATENÇÃO: NÃO POSSUÍMOS QUAISQUER DIREITOS AUTORAIS SOBRE AS IMAGENS UTILIZADAS NESTE PROJETO, TODAS ELAS FORAM UTILIZADAS COM O ÚNICO PROPÓSITO DE ESTUDO. 
 
 NOTAS:
@@ -14,6 +15,7 @@ NOTAS:
 *Certifique-se de que os plug-ins e dependências do Maven realmente correspondem aos sofrtwares instalados na sua máquina.
 
 *O projeto acompanha script com criação e inserção dos dados. Atente-se à versão do MySQL para evitar problemas de incompatibilidade. 
+
 
 
 Capturas de tela: 
