@@ -10,7 +10,9 @@
 *ATENÇÃO: NÃO POSSUÍMOS QUAISQUER DIREITOS AUTORAIS SOBRE AS IMAGENS UTILIZADAS NESTE PROJETO, TODAS ELAS FORAM UTILIZADAS COM O ÚNICO PROPÓSITO DE ESTUDO. 
 
 NOTAS:
+
 *Certifique-se de que os plug-ins e dependências do Maven realmente correspondem aos sofrtwares instalados na sua máquina.
+
 *O projeto acompanha script com criação e inserção dos dados. Atente-se à versão do MySQL para evitar problemas de incompatibilidade. 
 
 
