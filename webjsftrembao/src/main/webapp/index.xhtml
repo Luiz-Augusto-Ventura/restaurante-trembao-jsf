@@ -1,0 +1,66 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:p="http://primefaces.org/ui"> 
+
+<h:head>
+  <!-- <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/> -->
+  <!-- CSS  -->
+  <!-- <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+  <link href="materialize/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="materialize/css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/> -->
+  
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css" />
+
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+</h:head> 
+<h:body class="red darken-3"> 	
+	<div class="vertically-aligned row" style="margin: 0px;
+	padding:0px;
+	float: left;
+	width:100%;
+	position:absolute;
+	top: 50%;
+	transform: translateY(-50%) translateX(-50%);
+	left:50%;">
+		<div class="center">
+			<img src="img/logo.png" width="200"/>
+		</div>
+		
+		<div class="col s10 m8 l6 offset-s1 offset-m2 offset-l3" style="border: solid black 3px; border-radius: 10px;">
+			<h:form id="x">
+				<label class="black-text">Email:</label>
+				<h:inputText value="#{loginbean.cliente.email}" class="white-text" />
+				<br/>
+				<label class="black-text">Senha:</label>
+				<h:inputText value="#{loginbean.cliente.senha}" class="white-text"/>
+				<br/>
+				<div class="center-align">
+				<span class="center">
+					<h:commandButton action="#{loginbean.validalogin}" value="Entrar" class="btn waves-effect waves-light black" />
+				</span>
+				</div>
+				<br />
+				<p:message id="erro" for="erro" style="background-color: #FFFF00 ;color:black;" /> 
+			</h:form>
+		</div>
+		<br />
+		<div class="center col s12">
+			<a href="cadastro.xhtml" class="black-text" style="font-size: 18px;">Cadastrar</a>
+		</div>
+	</div> 
+	
+		
+	<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+	<script src="materialize/js/materialize.js"></script>
+	<script src="materialize/js/init.js"></script>
+</h:body> 
+</html>
