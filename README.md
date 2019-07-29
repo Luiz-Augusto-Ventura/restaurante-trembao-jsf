@@ -14,9 +14,9 @@
 
 #### NOTAS:
 
-* Certifique-se de que os plug-ins e dependências do Maven realmente correspondem aos sofrtwares instalados na sua máquina.
+* Certifique-se de que os plug-ins e dependências do Maven realmente correspondem às versões de software instaladas na sua máquina.
 
-* O projeto acompanha script com criação e inserção dos dados. Atente-se à versão do MySQL para evitar problemas de incompatibilidade. 
+* O projeto acompanha o script de criação do banco de dados e inserção de seus dados. Atente-se à versão do MySQL para evitar problemas de incompatibilidade. 
 
 ##### Outros desenvolvedores: Diogo Machado Miranda e Willian Pereira Mariano
 
